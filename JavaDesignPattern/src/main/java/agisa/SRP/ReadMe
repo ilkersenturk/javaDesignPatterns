@@ -1,0 +1,19 @@
+Srp  - Sting Responsibility Service
+
+Idea is the make sure class handles only one task
+
+User ==> Create a user objec where user has name , email and address
+
+Store  == > Store class has ability to create storage by using hashmap to save user
+
+UserValidator ==> Making sure the users are legit , has name , email and addressses according to config
+
+UserPersistanceService == > Instanciate Store class , and saves the users
+
+UserController ==> Handles incoming json request to work on user
+
+
+Libraries are used : jackson for data-binding
+                     Regex for pattern matching
+                     Hashmap for saving users
+                     synchronized : making sure to sync
